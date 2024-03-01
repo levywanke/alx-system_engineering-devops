@@ -1,4 +1,4 @@
-ddition of 2 Server: To improve reliability and redundancy by distributing the workload across multiple servers.
+addition of 2 Server: To improve reliability and redundancy by distributing the workload across multiple servers.
 
 2. Load Balancer (HAproxy): To evenly distribute incoming traffic among multiple servers, improving scalability and availability.
 
