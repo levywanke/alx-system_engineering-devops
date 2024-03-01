@@ -1,4 +1,4 @@
-ervers: Adding multiple servers improves reliability and scalability by distributing the workload and providing redundancy.
+servers: Adding multiple servers improves reliability and scalability by distributing the workload and providing redundancy.
 
 2. Firewalls: Firewalls are added to control and monitor incoming and outgoing network traffic to and from the servers. They help protect against unauthorized access, malicious attacks, and data breaches.
 
