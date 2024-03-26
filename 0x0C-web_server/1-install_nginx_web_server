@@ -1,8 +1,17 @@
 #!/usr/bin/env bash
-# Installs Nginx and configures it on a remote server.
 
-apt-get -y update
-apt-get -y install nginx
-ufw allow 'Nginx HTTP'
-echo 'Hello World!' > /var/www/html/index.nginx-debian.html
-service nginx start
+# Configures a new Ubuntu machine to meet the requirements specified below:
+# - Installs Nginx web server
+# - Nginx should be listening on port 80
+# - When querying Nginx at its root / with a GET request, it must return a page containing the string "Hello World!"
+# - Does not use systemctl for restarting Nginx
+
+# Update package lists and install nginx silently
+apt-get update -y
+apt-get install nginx -y > /dev/null 2>&1
+
+# Replace default nginx welcome page with "Hello World!"
+echo "Hello World!" > /var/www/html/index.html
+
+# Restart nginx without using systemctl
+service nginx restart > /dev/null 2>&1 || /etc/init.d/nginx restart > /dev/null 2>&1
