@@ -41,7 +41,7 @@ frontend wanke-frontend
         default_backend wanke-backend
 
 frontend wanke-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/wanke.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.wanke.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend wanke-backend
 
