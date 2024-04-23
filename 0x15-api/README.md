@@ -4,9 +4,13 @@ Scripting
 Back-end
 API
  Weight: 1
- Project will start Apr 22, 2024 6:00 AM, must end by Apr 23, 2024 6:00 AM
- Checker was released at Apr 22, 2024 12:00 PM
+ Ongoing second chance project - started Apr 22, 2024 6:00 AM, must end by Apr 25, 2024 6:00 AM
  An auto review will be launched at the deadline
+In a nutshell…
+Auto QA review: 8.0/21 mandatory
+Altogether:  38.1%
+Mandatory: 38.1%
+Optional: no optional tasks
 Background Context
 
 
@@ -63,6 +67,7 @@ Your code should not be executed when imported (by using if __name__ == "__main_
 Tasks
 0. Gather data from an API
 mandatory
+Score: 28.57% (Checks completed: 28.57%)
 Write a Python script that, using this REST API, for a given employee ID, returns information about his/her TODO list progress.
 
 Requirements:
@@ -110,9 +115,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x15-api
 File: 0-gather_data_from_an_API.py
-  
+   
 1. Export to CSV
 mandatory
+Score: 40.0% (Checks completed: 40.0%)
 Using what you did in the task #0, extend your Python script to export data in the CSV format.
 
 Requirements:
@@ -150,9 +156,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x15-api
 File: 1-export_to_CSV.py
-  
+   
 2. Export to JSON
 mandatory
+Score: 40.0% (Checks completed: 40.0%)
 Using what you did in the task #0, extend your Python script to export data in the JSON format.
 
 Requirements:
@@ -170,9 +177,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x15-api
 File: 2-export_to_JSON.py
-  
+   
 3. Dictionary of list of dictionaries
 mandatory
+Score: 50.0% (Checks completed: 50.0%)
 Using what you did in the task #0, extend your Python script to export data in the JSON format.
 
 Requirements:
@@ -190,5 +198,5 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x15-api
 File: 3-dictionary_of_list_of_dictionaries.py
-  
-Copyright © 2024 ALX, All rights reserved
+   
+Copyright © 2024 ALX, All rights reserved.
